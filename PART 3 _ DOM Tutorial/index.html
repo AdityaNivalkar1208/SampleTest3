@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="javascript.js"></script> -->
+    <!-- <script src="javascript.js" async></script> -->
+    <!-- <script src="javascript.js" defer></script> -->
+    <!-- <script src="01_get_element-by_id.js" defer></script> -->
+    <!-- <script src="02_element_query_selector.js" defer></script> -->
+    <!-- <script src="03_textContent_&_innerText.js" defer></script> -->
+    <!-- <script src="04_change_style_of_element.js" defer></script> -->
+    <script src="05_get_&_set_attributes.js" defer></script>
+    <!-- <script src="06_getElements_by_className.js" defer></script> -->
+    <!-- <script src="07_Loop.js" defer></script> -->
+    <!-- <script src="08_nodeList.js" defer></script> -->
+    <!-- <script src="09_innerHTML.js" defer></script> -->
+    <!-- <script src="10_classList_add_remove.js" defer></script> -->
+    <!-- <script src="11_add_new_html_element-to_page.js" defer></script> -->
+    <!-- <script src="12_document-createElement.js" defer></script> -->
+    <!-- <script src="13_elem-insertAdjacentHTML.js" defer></script> -->
+    <!-- <script src="14_clone_nodes.js" defer></script> -->
+    <!-- <script src="15_old_methods_support_in_IE.js" defer></script> -->
+    <!-- <script src="16_Static-List_&_Live-List.js" defer></script> -->
+    <!-- <script src="17_get_dimensions_of_element.js" defer></script> -->
+    <!-- <script src="18_Intro_To_Events.js" defer></script> -->
+    <!-- <script src="19_this_keyword.js" defer></script> -->
+    <!-- <script src="24_keypress_&_mouseover_event.js" defer></script> -->
+    <!-- <script src="index.js" defer></script> -->
+    <title>My Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="">Todo</a></li>
+                <li class="nav-item"><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <div class="headline">
+            <h2 id="main-heading">Manage your tasks <span style="display: none">Hello</span></h2>
+            <button class="btn btn-headline">Learn More</button>
+            <!-- <button class="btn btn-headline" onclick="console.log('Manage your tasks');">Learn More</button> -->
+        </div>
+    </header>
+
+    <section class="section-todo container">
+        <h2>Your plan for today ? </h2>
+        <form action="" class="form-todo">
+            <input type="text" name="" id="plz" placeholder="Add Todo">
+            <input type="submit" value="Add Todo" class="btn work">
+        </form>
+        <ul class="todo-list">
+            <li>
+                <span class="text">Do this Do that</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-signup container">
+        <h2 id="signup">Sign Up</h2>
+        <form action="" class="signup-Form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="about" id="know">About Yourself</label>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn signup-btn" id="last">Submit</button>
+        </form>
+    </section>
+
+    <button class="custom-btn btn-8"><span>Read More</span></button>
+    <!-- <script src="javascript.js"></script> -->
+</body>
+
+</html>
